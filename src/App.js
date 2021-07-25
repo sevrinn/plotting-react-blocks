@@ -1,22 +1,24 @@
 import React from 'react';
 import './App.css';
+import Styles from './App.module.css';
 import Header from './components/Header';
 import Navigation from './components/Navigation';
 import Main from './components/Main';
-import Subcontents from './components/Subcontents';
+import Subcontent from './components/Subcontent';
 import Advertisement from './components/Advertisement';
 
 function App() {
   return (
-    <div className="App">
-      <Header />
+    <div className={Styles.App}>
+    <h1>I'm alive</h1>
+      {/* <Header />
       <Navigation />
       <Main>
-        <Subcontents />
-        <Subcontents />
-        <Subcontents />
+        <Subcontent />
+        <Subcontent />
+        <Subcontent />
         <Advertisement />
-      </Main>
+      </Main> */}
     </div>
   );
 }
