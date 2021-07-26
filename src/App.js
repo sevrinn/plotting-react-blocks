@@ -10,8 +10,8 @@ function App() {
   return (
     <div className="App">
     
-      <Header/>
-      <Navigation />
+      <Header bgColor="#6aa84f"/>
+      <Navigation bgColor="#6fa8dc" />
       <Main />
      
     </div>
