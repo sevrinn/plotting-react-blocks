@@ -1,15 +1,6 @@
-import styles from './PlottingBlocks.module.css';
+import React from 'react';
+import '../App.css';
 
-const Header  = (props) => {
-
-  return (
-    <div className={styles.header}>
-      {props.children}
-        <header>
-          {props.header}
-        </header>
-    </div>
-  );
-}
+const Header = () => <div className="Header"></div>;
 
 export default Header;
